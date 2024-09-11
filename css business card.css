@@ -1,0 +1,29 @@
+
+body  {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.avatar {
+    width: 100px;
+}
+.cards {
+    
+    width: 400px;
+    margin: 0% auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center ;
+    background-color: #335c67;
+    background-color: linear-gradient(rgb(223, 223, 28));
+    color: #2b2839;
+    grid-template-columns: 10%;
+    grid-auto-flow: column;
+    border-bottom:6px solid #aba0d8;
+    
+}
+.border-blue {
+    border: 2px dotted black;
+    
+}
+
